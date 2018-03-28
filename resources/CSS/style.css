@@ -1,0 +1,83 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  background-color: black;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Content Area Styles */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+}
+.mission-tag {
+  background-color: black;
+  width: 100%;
+}
+
+.mission-tag h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.mission-tag h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tea-month {
+  margin-top: 50px;
+}
+
+
+/* Footer Styles */
