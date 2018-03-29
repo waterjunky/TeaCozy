@@ -70,14 +70,75 @@ nav span {
   margin-bottom: 0px;
 }
 
-.mission-tag h4 {
+h4 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .tea-month {
   margin-top: 50px;
+  width: 1000px;
 }
 
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea {
+  margin: 15px;
+}
+
+.location-listing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-position: top;
+}
+
+.location-listing h2 {
+  margin-bottom: 15px;
+}
+
+.locations {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.location h3 {
+  margin-bottom: 15px;
+}
 
 /* Footer Styles */
+footer {
+  position: relative;
+  top: -10px;
+}
+
+h5.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
