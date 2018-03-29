@@ -70,7 +70,7 @@ nav span {
   margin-bottom: 0px;
 }
 
-h4 {
+.mission-tag h4 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -94,6 +94,11 @@ h4 {
 
 .tea {
   margin: 15px;
+}
+
+.tea h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .location-listing {
